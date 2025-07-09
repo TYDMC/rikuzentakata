@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>陸前高田「風土の再生」体感ツアー 〜未来を創る、生きた知恵に触れる3日間〜</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans JP', 'Inter', sans-serif;
+        }
+        .hero-bg {
+            background-image: url('https://images.unsplash.com/photo-1508230826336-510a4593b7c0?q=80&w=1200&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        .section-title {
+            font-weight: 900;
+            letter-spacing: 0.1em;
+            position: relative;
+            padding-bottom: 0.5rem;
+            border-bottom: 3px solid #FDBA74; /* orange-300 */
+            display: inline-block;
+        }
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+        }
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .cta-bg {
+             background-image: url('https://images.unsplash.com/photo-1508183181999-3343a035a213?q=80&w=1200&auto=format&fit=crop');
+             background-size: cover;
+             background-position: center;
+        }
+        
+        /* Animation for hero text */
+        .hero-text-animation {
+            animation: slideUpFadeIn 1s ease-out forwards;
+            opacity: 0;
+        }
+        .hero-text-animation.delay-1 { animation-delay: 0.2s; }
+        .hero-text-animation.delay-2 { animation-delay: 0.4s; }
+        .hero-text-animation.delay-3 { animation-delay: 0.6s; }
+
+        @keyframes slideUpFadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+    <!-- Header / Hero Section -->
+    <header class="hero-bg text-white shadow-lg">
+        <div class="bg-gradient-to-t from-black/70 to-black/30 min-h-screen flex flex-col justify-center items-center p-4 text-center">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-black leading-tight mb-4 hero-text-animation" style="text-shadow: 2px 2px 6px rgba(0,0,0,0.8);">
+                    その地域再生、<br class="md:hidden">机上の空論で終わらせない。
+                </h1>
+                <p class="text-lg md:text-xl mb-2 hero-text-animation delay-1" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">
+                    未来を創る「生きた知恵」に触れる、3日間の旅へ。
+                </p>
+                <p class="text-base md:text-lg max-w-2xl mx-auto mb-8 hero-text-animation delay-2" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">
+                    東日本大震災からの「アグレッシブな創生」を遂げる岩手県・陸前高田市で、<br>あなたの地域づくりの、次なる一手を見つける。
+                </p>
+                <div class="flex justify-center items-center gap-4 hero-text-animation delay-3">
+                    <a href="https://forms.gle/ykWKs4cGmNAdhhfu6" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-10 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out text-lg">
+                        ＞ ツアーお申し込みはこちら
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Problem/Empathy Section -->
+        <section class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6 max-w-4xl text-center">
+                <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=600&auto=format&fit=crop" 
+                     onerror="this.onerror=null;this.src='https://placehold.co/600x400/e2e8f0/4a5568?text=Image+Not+Found';"
+                     alt="[地域で会議をしているような、真剣な表情の人々の写真]" class="mx-auto mb-12 rounded-lg shadow-xl fade-in w-full max-w-2xl object-cover">
+                <h2 class="section-title text-3xl md:text-4xl text-gray-800 mb-8 fade-in">こんな想いを抱えていませんか？</h2>
+                <ul class="text-left text-lg md:text-xl space-y-4 max-w-2xl mx-auto fade-in">
+                    <li class="flex items-start"><span class="text-orange-500 mr-3 mt-1 font-bold">✓</span>地域のために奔走しているが、<strong>突破口が見えない…</strong></li>
+                    <li class="flex items-start"><span class="text-orange-500 mr-3 mt-1 font-bold">✓</span>先進事例を学んでも、<strong>自分の地域でどう活かせばいいか分からない…</strong></li>
+                    <li class="flex items-start"><span class="text-orange-500 mr-3 mt-1 font-bold">✓</span>住民を巻き込みたいが、<strong>一体感をどう醸成すればいいか悩んでいる…</strong></li>
+                    <li class="flex items-start"><span class="text-orange-500 mr-3 mt-1 font-bold">✓</span>熱意はあるが、<strong>心を揺さぶるような原体験</strong>が足りていない気がする…</li>
+                </ul>
+                <p class="mt-10 text-2xl font-bold fade-in">その答えは、現場の「熱量」の中にしかない。</p>
+            </div>
+        </section>
+
+        <!-- Solution/Benefit Section -->
+        <section class="py-16 md:py-24 bg-orange-50">
+            <div class="container mx-auto px-6 max-w-5xl text-center">
+                <h2 class="section-title text-3xl md:text-4xl text-gray-800 mb-4 fade-in">この旅は、単なる視察ではありません。</h2>
+                <p class="text-lg md:text-xl mb-12 fade-in">陸前高田の「風土」と「人」に深く入り込み、<br>「再生の物語」を自らの体験として刻む、共創の旅です。</p>
+                <div class="grid md:grid-cols-3 gap-8 text-left">
+                    <!-- Benefit 1 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg fade-in transform hover:-translate-y-2 transition-transform duration-300">
+                        <h3 class="text-xl font-bold text-orange-600 mb-4">① 圧倒的当事者との対話</h3>
+                        <p class="text-base">絶望から奇跡のV字回復を成し遂げたキーパーソンと直接語り合い、事業創造とリーダーシップの本質を学びます。</p>
+                    </div>
+                    <!-- Benefit 2 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg fade-in transform hover:-translate-y-2 transition-transform duration-300" style="transition-delay: 100ms;">
+                        <h3 class="text-xl font-bold text-orange-600 mb-4">② "内発的"な地域力に触れる</h3>
+                        <p class="text-base">極限状況から生まれた住民主体のコミュニティに滞在。人を巻き込む「空気感」の正体を肌で感じ取ります。</p>
+                    </div>
+                    <!-- Benefit 3 -->
+                    <div class="bg-white p-8 rounded-lg shadow-lg fade-in transform hover:-translate-y-2 transition-transform duration-300" style="transition-delay: 200ms;">
+                        <h3 class="text-xl font-bold text-orange-600 mb-4">③ 五感で学ぶ「一次情報」</h3>
+                        <p class="text-base">震災の記憶、風土が育んだ食、未来へのまちづくり。データや活字では得られないリアルな情報が、あなたの価値観を揺さぶります。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Person Section -->
+        <section class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <div class="md:flex items-center gap-12">
+                    <div class="md:w-1/3 text-center mb-8 md:mb-0 fade-in">
+                        <img src="https://images.unsplash.com/photo-1560272564-c83b66b1ad12?q=80&w=400&auto=format&fit=crop" 
+                             onerror="this.onerror=null;this.src='https://placehold.co/400x400/ffedd5/8c2d04?text=Image+Not+Found';"
+                             alt="[柔和な笑顔の八木澤商店・河野通洋氏のイメージ写真]" class="rounded-lg object-contain mx-auto shadow-xl">
+                    </div>
+                    <div class="md:w-2/3 fade-in">
+                        <h3 class="text-lg font-bold text-orange-500">メインセッション講師</h3>
+                        <h2 class="section-title text-3xl md:text-4xl text-gray-800 mt-1 mb-4">河野 通洋 氏</h2>
+                        <p class="font-bold mb-4">株式会社八木澤商店 代表取締役</p>
+                        <p class="text-base leading-relaxed">200年以上の歴史を持つ老舗味噌・醤油蔵の9代目。東日本大震災で社屋や工場、自宅のすべてを失うも、「誰一人解雇しない」と宣言。社員と共に会社を再建し、地域の食文化と観光を融合させた拠点「発酵パークCAMOCY」を開業。その並外れたレジリエンスと地域への深い愛情から生まれる言葉は、多くの地域リーダーに勇気と示唆を与え続けている。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Itinerary Section -->
+        <section class="py-16 md:py-24 bg-gray-100">
+            <div class="container mx-auto px-6 max-w-5xl">
+                <h2 class="section-title text-3xl md:text-4xl text-center text-gray-800 mb-12 fade-in">旅で紡ぐ3日間のストーリー</h2>
+                
+                <!-- Day 1 -->
+                <div class="md:flex items-center gap-8 mb-16 fade-in">
+                    <div class="md:w-1/2 mb-6 md:mb-0">
+                        <img src="https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?q=80&w=600&auto=format&fit=crop" 
+                             onerror="this.onerror=null;this.src='https://placehold.co/600x400/81e6d9/234e52?text=Image+Not+Found';"
+                             alt="[発酵パークCAMOCYのモダンな店内のイメージ写真]" class="rounded-lg shadow-xl w-full h-full object-cover">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h3 class="text-2xl font-bold mb-2">Day 1: 実践者の熱量に触れる</h3>
+                        <p class="font-bold text-orange-500 mb-4">#アントレプレナーシップ #アグレッシブな創生</p>
+                        <p class="text-base leading-relaxed">仙台駅を出発し、まず向かうのは陸前高田の復興のシンボルの一つ「発酵パークCAMOCY」。ここで八木澤商店の河野代表から、震災時の状況から復興への道のりを「物語」として直接伺います。ランチ後、再び河野代表と共に陸前高田の中心市街地を歩きます。震災からの「再生の物語」と、これからの「持続可能なまちづくり」について、現場を見ながら未来への展望を語り合う貴重な時間です。夜は、この旅の拠点となる「長洞元気村」へ。</p>
+                    </div>
+                </div>
+
+                <!-- Day 2 -->
+                <div class="md:flex flex-row-reverse items-center gap-8 mb-16 fade-in">
+                    <div class="md:w-1/2 mb-6 md:mb-0">
+                        <img src="https://images.unsplash.com/photo-1554514399-551b4434b7e8?q=80&w=600&auto=format&fit=crop" 
+                             onerror="this.onerror=null;this.src='https://placehold.co/600x400/f6ad55/b7791f?text=Image+Not+Found';"
+                             alt="[長洞元気村の「なでしこ会」の女性たちが笑顔で作業している様子]" class="rounded-lg shadow-xl w-full h-full object-cover">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h3 class="text-2xl font-bold mb-2">Day 2: 地域内発の底力に浸る</h3>
+                        <p class="font-bold text-orange-500 mb-4">#住民主体の自治 #巻き込む空気感</p>
+                        <p class="text-base leading-relaxed">2日目は、津波で一時孤立しながらも住民の力で暮らしを立て直した「長洞元気村」に終日滞在。地域の女性グループ「なでしこ会」との昼食交流会、いざという時に活きる防災ワークショップや防災ピクニッククルージング、季節に応じた農業・漁業体験など、リアルな地域活動に参加します。3食すべてを元気村でいただきながら、ここにしかないコミュニティの温かさと強さを全身で感じてください。</p>
+                    </div>
+                </div>
+
+                <!-- Day 3 -->
+                <div class="md:flex items-center gap-8 fade-in">
+                    <div class="md:w-1/2 mb-6 md:mb-0">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Miracle_Pine_Tree_of_Rikuzentakata_2014.jpg/1280px-Miracle_Pine_Tree_of_Rikuzentakata_2014.jpg"
+                             onerror="this.onerror=null;this.src='https://placehold.co/600x400/9f7aea/553c9a?text=Image+Not+Found';"
+                             alt="[いわてTSUNAMIメモリアルと奇跡の一本松]" class="rounded-lg shadow-xl w-full h-full object-cover">
+                    </div>
+                    <div class="md:w-1/2">
+                        <h3 class="text-2xl font-bold mb-2">Day 3: 一次情報から未来を問う</h3>
+                        <p class="font-bold text-orange-500 mb-4">#震災のリアル #未来への展望</p>
+                        <p class="text-base leading-relaxed">朝、長洞元気村を出発。ランチを挟み、午後は高田松原津波復興祈念パークを地元ガイドと巡り、箱根山展望台から新しい街並みを俯瞰。CAMOCYでの最後のランチと買い物を楽しみ、陸前高田の地を後にします。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Outline Section -->
+        <section id="application" class="py-16 md:py-24 bg-white">
+            <div class="container mx-auto px-6 max-w-4xl">
+                <h2 class="section-title text-3xl md:text-4xl text-center text-gray-800 mb-12 fade-in">募集要項</h2>
+                <div class="bg-gray-50 rounded-lg shadow-xl overflow-hidden fade-in">
+                    <table class="w-full text-left">
+                        <tbody>
+                            <tr class="border-b border-gray-200"><td class="p-4 md:p-6 font-bold bg-gray-100 w-1/3">ツアー名称</td><td class="p-4 md:p-6">陸前高田市まちづくり研修会</td></tr>
+                            <tr class="border-b border-gray-200"><td class="p-4 md:p-6 font-bold bg-gray-100">日程</td><td class="p-4 md:p-6">2025年8月25日(月) 〜 8月27日(水) 2泊3日</td></tr>
+                            <tr class="border-b border-gray-200"><td class="p-4 md:p-6 font-bold bg-gray-100">場所</td><td class="p-4 md:p-6">岩手県陸前高田市とその周辺</td></tr>
+                            <tr class="border-b border-gray-200"><td class="p-4 md:p-6 font-bold bg-gray-100">集合</td><td class="p-4 md:p-6">8月25日(月) 9:00頃 仙台駅西口</td></tr>
+                            <tr class="border-b border-gray-200"><td class="p-4 md:p-6 font-bold bg-gray-100">解散</td><td class="p-4 md:p-6">8月27日(水) 14:00 陸前高田市にて</td></tr>
+                            <tr class="border-b border-gray-200"><td class="p-4 md:p-6 font-bold bg-gray-100">宿泊</td><td class="p-4 md:p-6">一般社団法人 長洞元気村（2泊5食付）</td></tr>
+                            <tr class="border-b border-gray-200"><td class="p-4 md:p-6 font-bold bg-gray-100 align-top">ツアー費用</td><td class="p-4 md:p-6"><strong>30,000円（税込）</strong><br><span class="text-sm text-gray-600">※ツアー費用に含まれるもの<br>・宿泊費（8/25、8/26）<br>・体験費<br>・ツアー中の移動費<br>※ツアー費用に含まれないもの<br>・8/25、8/27のランチ代<br>・黒崎仙峡温泉などのオプション代</span></td></tr>
+                            <tr class="border-b border-gray-200"><td class="p-4 md:p-6 font-bold bg-gray-100">定員</td><td class="p-4 md:p-6">15名（最小催行人数 8名）</td></tr>
+                            <tr class="border-b border-gray-200"><td class="p-4 md:p-6 font-bold bg-gray-100">申込締切</td><td class="p-4 md:p-6">2025年8月10日(日)</td></tr>
+                            <tr><td class="p-4 md:p-6 font-bold bg-gray-100">企画</td><td class="p-4 md:p-6">株式会社東京山側DMC</td></tr>
+                        </tbody>
+                    </table>
+                    <div class="p-4 md:p-6 bg-gray-100 text-sm text-gray-700">
+                        ※オプションで黒崎仙峡温泉もご利用いただけます（車で約15分）。
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA Section -->
+        <section class="cta-bg text-white shadow-lg">
+            <div class="bg-black bg-opacity-60 py-20 md:py-32">
+                <div class="container mx-auto px-6 max-w-4xl text-center">
+                    <h2 class="text-3xl md:text-4xl font-black mb-4" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.7);">さあ、あなたも再生の物語の目撃者から、<br>未来を創る当事者へ。</h2>
+                    <p class="text-lg md:text-xl mb-8" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.7);">陸前高田で得られる感動と学びは、<br>必ずや、あなたの地域での次なる一歩を照らす光となるはずです。</p>
+                    <p class="text-xl font-bold mb-10" style="text-shadow: 1px 1px 2px rgba(0,0,0,0.7);">熱意ある皆様のご参加を、心よりお待ちしております。</p>
+                    <a href="https://forms.gle/ykWKs4cGmNAdhhfu6" target="_blank" rel="noopener noreferrer" class="bg-orange-500 hover:bg-orange-600 text-white font-bold py-4 px-12 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out text-xl">
+                        ＞ いますぐ申し込む
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p class="mb-2">ご質問やご相談は、messengerグループにてお気軽にご連絡ください。</p>
+            <p class="font-bold">株式会社東京山側DMC</p>
+            <p>担当：櫻澤・西川</p>
+            <p class="mt-4 text-sm text-gray-400">&copy; 2025 Tokyo Yamagawa DMC Inc. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    targetElement.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Fade-in animation on scroll
+        const faders = document.querySelectorAll('.fade-in');
+        const appearOptions = {
+            threshold: 0.2, // A little earlier
+            rootMargin: "0px 0px -50px 0px"
+        };
+        const appearOnScroll = new IntersectionObserver(function(entries, appearOnScroll) {
+            entries.forEach(entry => {
+                if (!entry.isIntersecting) {
+                    return;
+                } else {
+                    entry.target.classList.add('visible');
+                    appearOnScroll.unobserve(entry.target);
+                }
+            });
+        }, appearOptions);
+
+        faders.forEach(fader => {
+            appearOnScroll.observe(fader);
+        });
+    </script>
+</body>
+</html>
